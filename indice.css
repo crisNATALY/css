@@ -1,0 +1,39 @@
+body{
+    background-color: gray;
+    font-family: "signika",sans-serif;
+    font-size: 2rem;
+}
+header{
+    text-align: right;
+}
+.head{
+    text-align: center;
+}
+.enlace{
+    background-color: black;
+    display: inline-flex;
+}
+.enlace:a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+}
+.enlace a:hover{
+    background-color: white;
+    color: black;
+}
+.enlace a.active{
+    background-color: white;
+    color: black;
+}
+.contener{
+display: flex;
+justify-content: right;
+background-image: url(https://img.freepik.com/vector-gratis/coleccion-juguetes-navidenos-diseno-plano_23-2148745483.jpg);
+width: 600px;
+height: 500px;
+}
+.h1{
+    text-align: center;
+    text-decoration: none;
+}
